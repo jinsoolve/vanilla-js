@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+@font-face {
+  font-family: "diary";
+  src: url("../font/EF_Diary.ttf") format("truetype");
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 50vh;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  font-family: "diary";
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 28px;
+  font-family: "diary";
+  font-size: 12pt;
+  border: 0;
+  outline: none;
+}
+
+li {
+  font-size: 14pt;
+}
+
+button {
+  margin: 20px;
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 6px;
+  font-family: "diary";
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  /* background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%); */
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.oneLine {
+  display: inline;
+}
